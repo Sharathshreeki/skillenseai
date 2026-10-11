@@ -1,0 +1,101 @@
+job_id,job_title,reference_count,predicted_count,true_positives,false_positives,false_negatives,precision,recall,f1,warnings
+3898174257,Director of Finance,17,11,3,8,14,0.2727272727272727,0.17647058823529413,0.21428571428571427,"[""Experience requirement needs review."", ""Education requirement needs review.""]"
+3905857275,Business Development Manager - Dallas/Fort Worth,30,13,5,8,25,0.38461538461538464,0.16666666666666666,0.2325581395348837,"[""Experience requirement needs review.""]"
+3902876855,Human Resources Coordinator,14,13,8,5,6,0.6153846153846154,0.5714285714285714,0.5925925925925927,"[""Experience requirement needs review.""]"
+3906227054,Human Resources Assistant,17,11,5,6,12,0.45454545454545453,0.29411764705882354,0.35714285714285715,[]
+3887105208,Business Development Staffing Executive,15,7,4,3,11,0.5714285714285714,0.26666666666666666,0.36363636363636365,[]
+3902324071,Lead Information Technology Specialist (Systems Administration),15,13,5,8,10,0.38461538461538464,0.3333333333333333,0.3571428571428571,"[""Experience requirement needs review.""]"
+3899525451,Outside Sales Representative,11,4,3,1,8,0.75,0.2727272727272727,0.39999999999999997,"[""Experience requirement needs review.""]"
+3898167161,Director of Information Technology,16,3,1,2,15,0.3333333333333333,0.0625,0.10526315789473684,"[""Experience requirement needs review."", ""Education requirement needs review.""]"
+3902362545,Hybrid - Information Technology Manager 1,18,16,5,11,13,0.3125,0.2777777777777778,0.29411764705882354,"[""Experience requirement needs review.""]"
+3906200108,Lead Information Technology Specialist,15,7,2,5,13,0.2857142857142857,0.13333333333333333,0.18181818181818182,[]
+3904415999,Human Resources Coordinator - A&F Co.,13,15,5,10,8,0.3333333333333333,0.38461538461538464,0.3571428571428571,"[""Experience requirement needs review.""]"
+3902875974,Director of Human Resources,32,29,13,16,19,0.4482758620689655,0.40625,0.4262295081967213,"[""Experience requirement needs review.""]"
+3901349958,Finance Associate (Hybrid),15,10,5,5,10,0.5,0.3333333333333333,0.4,"[""Experience requirement needs review."", ""Education requirement needs review.""]"
+3904383649,Analyst II - Information Technology,22,8,6,2,16,0.75,0.2727272727272727,0.39999999999999997,"[""Education requirement needs review.""]"
+3901672668,Sales Development Representative - US,15,15,6,9,9,0.4,0.4,0.4000000000000001,"[""Experience requirement needs review.""]"
+3905864665,Finance Manager BUF Vision MEDCEE,20,25,8,17,12,0.32,0.4,0.35555555555555557,"[""Experience requirement needs review.""]"
+3906252855,Information Technology Support Analyst III,16,6,2,4,14,0.3333333333333333,0.125,0.18181818181818182,"[""Experience requirement needs review.""]"
+3905871177,Information Technology Project Coordinator,12,10,4,6,8,0.4,0.3333333333333333,0.3636363636363636,[]
+3902342298,Field Sales Representative,16,8,3,5,13,0.375,0.1875,0.25,"[""Experience requirement needs review.""]"
+3901674413,Senior Information Technology Specialist,25,22,12,10,13,0.5454545454545454,0.48,0.5106382978723404,[]
+3901476299,Senior New Business Development Executive,16,17,8,9,8,0.47058823529411764,0.5,0.48484848484848486,"[""Experience requirement needs review.""]"
+3894550753,Human Resources Coordinator (Entry Level) ,16,13,6,7,10,0.46153846153846156,0.375,0.41379310344827586,"[""Experience requirement needs review."", ""Education requirement needs review.""]"
+3895812688,Senior Salesforce Developer,30,23,9,14,21,0.391304347826087,0.3,0.33962264150943394,"[""Experience requirement needs review.""]"
+3885109989,Director of Information Technology,19,9,5,4,14,0.5555555555555556,0.2631578947368421,0.35714285714285715,"[""Experience requirement needs review.""]"
+3902785730,Sales Specialist,15,20,8,12,7,0.4,0.5333333333333333,0.4571428571428572,"[""Experience requirement needs review.""]"
+3899930721,Information Technology Help Desk,19,8,4,4,15,0.5,0.21052631578947367,0.2962962962962963,"[""Experience requirement needs review.""]"
+3891068947,Business Development Manager,12,7,7,0,5,1.0,0.5833333333333334,0.7368421052631579,[]
+3885112179,Director of Finance And Accounting,21,8,5,3,16,0.625,0.23809523809523808,0.3448275862068965,"[""Experience requirement needs review."", ""Education requirement needs review.""]"
+3906230219,Human Resources Coordinator,19,16,6,10,13,0.375,0.3157894736842105,0.34285714285714286,[]
+3901354670,Salesforce Architect - Omnistudio,21,14,5,9,16,0.35714285714285715,0.23809523809523808,0.2857142857142857,"[""Experience requirement needs review.""]"
+3905256384,Director of Finance - Managed Communities,20,19,8,11,12,0.42105263157894735,0.4,0.41025641025641024,"[""Experience requirement needs review.""]"
+3904502170,Information Technology Support Technician,18,15,5,10,13,0.3333333333333333,0.2777777777777778,0.303030303030303,"[""Experience requirement needs review.""]"
+3906267195,Business Development Manager,23,11,5,6,18,0.45454545454545453,0.21739130434782608,0.29411764705882354,"[""Experience requirement needs review.""]"
+3904999159,V.I.E. Sustainable Finance Analyst,10,4,3,1,7,0.75,0.3,0.4285714285714285,"[""Experience requirement needs review.""]"
+3904432275,"Finance Business Partner, MEP",20,21,7,14,13,0.3333333333333333,0.35,0.3414634146341463,"[""Experience requirement needs review.""]"
+3904375309,Director of Finance,17,3,0,3,17,0.0,0.0,0.0,"[""Experience requirement needs review.""]"
+3904710183,Human Resources Generalist,21,22,13,9,8,0.5909090909090909,0.6190476190476191,0.6046511627906977,"[""Experience requirement needs review.""]"
+3904928896,Volunteer: Opportunity Alert: Finance Coordinator needed for Cyber Defense & Intelligence Center,15,18,8,10,7,0.4444444444444444,0.5333333333333333,0.4848484848484848,[]
+3905288339,Vice President of Human Resources (R1881),22,35,15,20,7,0.42857142857142855,0.6818181818181818,0.5263157894736843,"[""Experience requirement needs review.""]"
+3904391045,"Senior Business Development Manager, Manufacturing Segment",19,12,6,6,13,0.5,0.3157894736842105,0.3870967741935484,"[""Experience requirement needs review."", ""Education requirement needs review.""]"
+3889110089,Sr. Finance Manager,20,24,10,14,10,0.4166666666666667,0.5,0.45454545454545453,[]
+3900082118,Human Resources Co-Op - Summer 2024,19,15,9,6,10,0.6,0.47368421052631576,0.5294117647058824,"[""Experience requirement needs review.""]"
+3901378554,Information Technology Sourcing Manager,23,14,8,6,15,0.5714285714285714,0.34782608695652173,0.4324324324324324,"[""Experience requirement needs review.""]"
+3894982645,Technical Sales Engineer ,15,11,5,6,10,0.45454545454545453,0.3333333333333333,0.3846153846153846,"[""Experience requirement needs review.""]"
+3898167090,Information Technology Support Specialist,25,16,9,7,16,0.5625,0.36,0.43902439024390244,[]
+3905256349,Manager of Information Technology,22,2,1,1,21,0.5,0.045454545454545456,0.08333333333333334,"[""Experience requirement needs review."", ""Education requirement needs review.""]"
+3902360084,Director of Business Development - Alliance Partnerships,20,25,12,13,8,0.48,0.6,0.5333333333333332,[]
+3901630033,Human Resources Generalist,15,24,5,19,10,0.20833333333333334,0.3333333333333333,0.25641025641025644,"[""Experience requirement needs review.""]"
+3901962110,A/P & Contract Analyst II - Information Technology,17,13,7,6,10,0.5384615384615384,0.4117647058823529,0.4666666666666667,"[""Experience requirement needs review.""]"
+3903852274,Business Development Manager (Seattle or Portland),15,7,2,5,13,0.2857142857142857,0.13333333333333333,0.18181818181818182,"[""Experience requirement needs review.""]"
+3898167129,Human Resources Business Partner,18,11,7,4,11,0.6363636363636364,0.3888888888888889,0.4827586206896552,"[""Experience requirement needs review.""]"
+3904565981,Assistant Vice President Finance,17,19,6,13,11,0.3157894736842105,0.35294117647058826,0.33333333333333337,[]
+3887491764,Information Technology Program Manager,18,5,3,2,15,0.6,0.16666666666666666,0.2608695652173913,[]
+3902860497,Regional & Specialty Banking Finance Manager,22,34,15,19,7,0.4411764705882353,0.6818181818181818,0.5357142857142857,"[""Experience requirement needs review.""]"
+3901394613,Project Sales Manager,17,17,11,6,6,0.6470588235294118,0.6470588235294118,0.6470588235294118,"[""Experience requirement needs review.""]"
+3889757043,Director of Finance,16,9,4,5,12,0.4444444444444444,0.25,0.32,"[""Experience requirement needs review."", ""Education requirement needs review.""]"
+3905833500,Sales And Marketing Representative,10,7,4,3,6,0.5714285714285714,0.4,0.47058823529411764,"[""Experience requirement needs review.""]"
+3906094481,Business Development Representative,14,15,5,10,9,0.3333333333333333,0.35714285714285715,0.3448275862068965,"[""Experience requirement needs review.""]"
+3895213851,Technology Sales Representative,21,8,1,7,20,0.125,0.047619047619047616,0.06896551724137931,[]
+3899536815,Business Development and Teaming Coach,20,16,9,7,11,0.5625,0.45,0.5,"[""Experience requirement needs review.""]"
+3888939626,Information Technology Support Specialist (Active TS/SCI /wPoly),14,5,0,5,14,0.0,0.0,0.0,"[""Experience requirement needs review.""]"
+3884438195,Information Technology Technician,16,7,1,6,15,0.14285714285714285,0.0625,0.08695652173913043,"[""Education requirement needs review.""]"
+3905376504,Information Technology Operations Intern - Summer 2024,18,9,4,5,14,0.4444444444444444,0.2222222222222222,0.2962962962962963,"[""Experience requirement needs review.""]"
+3891072165,Outside Sales Representative,18,8,3,5,15,0.375,0.16666666666666666,0.23076923076923078,"[""Experience requirement needs review.""]"
+3884929863,Client Finance Analyst I,19,18,11,7,8,0.6111111111111112,0.5789473684210527,0.5945945945945946,"[""Experience requirement needs review.""]"
+3903846584,Human Resource Adminstrator,13,10,5,5,8,0.5,0.38461538461538464,0.4347826086956522,"[""Experience requirement needs review.""]"
+3887712011,Renewable IPP - Project Finance and M&A Associate,15,2,0,2,15,0.0,0.0,0.0,"[""Education requirement needs review.""]"
+3901967275,Human Resources Project Manager,17,8,3,5,14,0.375,0.17647058823529413,0.24,"[""Experience requirement needs review."", ""Education requirement needs review.""]"
+3904084041,Human Resources Generalist,10,9,5,4,5,0.5555555555555556,0.5,0.5263157894736842,"[""Experience requirement needs review.""]"
+3894895288,Territory Sales Manager,5,2,0,2,5,0.0,0.0,0.0,"[""Experience requirement needs review.""]"
+3902903839,Sr. Inside Business Development Manager (Hybrid),18,27,8,19,10,0.2962962962962963,0.4444444444444444,0.3555555555555555,"[""Experience requirement needs review.""]"
+3902939001,Information Technology Specialist 2 Programming (NY HELPs) - 5315,14,5,4,1,10,0.8,0.2857142857142857,0.4210526315789473,[]
+3901941411,Business Development Representative,18,13,7,6,11,0.5384615384615384,0.3888888888888889,0.45161290322580644,"[""Experience requirement needs review.""]"
+3894554212,Human Resources Manager ,20,19,7,12,13,0.3684210526315789,0.35,0.358974358974359,"[""Experience requirement needs review.""]"
+3890896173,Human Resources Coordinator,23,13,5,8,18,0.38461538461538464,0.21739130434782608,0.27777777777777773,"[""Experience requirement needs review.""]"
+3905252432,Business Development Specialist,14,8,4,4,10,0.5,0.2857142857142857,0.36363636363636365,"[""Experience requirement needs review.""]"
+3886831114,Information Technology Field Engineer,19,9,2,7,17,0.2222222222222222,0.10526315789473684,0.14285714285714285,"[""Experience requirement needs review.""]"
+3905219414,Information Technology Operations Project Manager,20,14,6,8,14,0.42857142857142855,0.3,0.3529411764705882,"[""Experience requirement needs review.""]"
+3894877672,Human Resources Coordinator,20,16,5,11,15,0.3125,0.25,0.2777777777777778,"[""Experience requirement needs review.""]"
+3887884760,Senior Director of Finance,21,34,10,24,11,0.29411764705882354,0.47619047619047616,0.3636363636363637,"[""Experience requirement needs review.""]"
+3904358856,"Director, Finance",19,28,5,23,14,0.17857142857142858,0.2631578947368421,0.2127659574468085,"[""Experience requirement needs review.""]"
+3887855844,"Business Development Manager, Facial- Allergan Aesthetics Sugar Land, TX",21,12,4,8,17,0.3333333333333333,0.19047619047619047,0.24242424242424246,"[""Experience requirement needs review.""]"
+3905247377,Finance Manager,16,10,5,5,11,0.5,0.3125,0.38461538461538464,"[""Experience requirement needs review.""]"
+3900079841,Information Technology Analyst ,19,16,8,8,11,0.5,0.42105263157894735,0.45714285714285713,"[""Experience requirement needs review.""]"
+3900962646,Information Technology - Data Management Specialist,27,12,6,6,21,0.5,0.2222222222222222,0.30769230769230765,"[""Experience requirement needs review.""]"
+3884841822,Human Resources Assistant,17,15,4,11,13,0.26666666666666666,0.23529411764705882,0.25,"[""Experience requirement needs review.""]"
+3889732648,Sr. Finance Manager,18,13,6,7,12,0.46153846153846156,0.3333333333333333,0.3870967741935484,"[""Experience requirement needs review.""]"
+3905849388,Vice President Human Resources,15,23,9,14,6,0.391304347826087,0.6,0.47368421052631576,"[""Experience requirement needs review.""]"
+3861704803,Business Development Manager,19,6,2,4,17,0.3333333333333333,0.10526315789473684,0.16,[]
+3899544157,Vice President Human Resources,25,26,12,14,13,0.46153846153846156,0.48,0.47058823529411764,"[""Experience requirement needs review.""]"
+3905243514,Salesforce Technical Lead/ Architect,22,3,0,3,22,0.0,0.0,0.0,"[""Experience requirement needs review."", ""Education requirement needs review.""]"
+3901981049,Human Resources Business Partner III International,22,23,10,13,12,0.43478260869565216,0.45454545454545453,0.4444444444444445,"[""Experience requirement needs review.""]"
+3904082300,"Account Executive, New Business Development, HEOR & Market Access",19,17,6,11,13,0.35294117647058826,0.3157894736842105,0.33333333333333337,"[""Experience requirement needs review.""]"
+3902951563,Business Development Manager,18,12,4,8,14,0.3333333333333333,0.2222222222222222,0.26666666666666666,"[""Experience requirement needs review.""]"
+3902925331,Head of Business Development & Investor Relations,21,16,4,12,17,0.25,0.19047619047619047,0.2162162162162162,[]
+3884436082,Senior Information Technology Auditor,25,15,6,9,19,0.4,0.24,0.3,"[""Experience requirement needs review.""]"
+3887493118,Sales Representative,17,9,4,5,13,0.4444444444444444,0.23529411764705882,0.30769230769230765,"[""Experience requirement needs review.""]"
+3891016039,Information Technology Auditor,26,15,4,11,22,0.26666666666666666,0.15384615384615385,0.1951219512195122,"[""Experience requirement needs review.""]"
+3901601893,Inside Sales,16,11,6,5,10,0.5454545454545454,0.375,0.4444444444444444,[]
+3901939857,Human Resources Generalist,21,18,9,9,12,0.5,0.42857142857142855,0.4615384615384615,"[""Experience requirement needs review.""]"

@@ -1,0 +1,16 @@
+# Install and verify dependencies for your environment before pinning versions.
+scikit-learn
+numpy
+streamlit
+pandas
+spacy
+sentence-transformers
+rapidfuzz
+python-docx
+pymupdf
+pillow
+python-dotenv
+pytest
+# OCR fallback: Python wrapper. Also install the native Tesseract binary (macOS: brew install tesseract).
+pytesseract
+fpdf2

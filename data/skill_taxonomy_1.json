@@ -1,0 +1,1363 @@
+[
+  {
+    "id": "sql",
+    "name": "SQL",
+    "category": "Technical",
+    "aliases": [
+      "sql",
+      "sql queries",
+      "structured query language"
+    ],
+    "review_aliases": [],
+    "related": [
+      "MySQL",
+      "PostgreSQL"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "excel_spreadsheets",
+    "name": "Excel / Spreadsheets",
+    "category": "Technical",
+    "aliases": [
+      "excel",
+      "ms excel",
+      "microsoft excel",
+      "spreadsheet",
+      "spreadsheets"
+    ],
+    "review_aliases": [
+      "spreadsheet analysis"
+    ],
+    "related": [
+      "Google Sheets"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "google_sheets",
+    "name": "Google Sheets",
+    "category": "Technical",
+    "aliases": [
+      "google sheets",
+      "googlesheets"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Excel / Spreadsheets"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "python",
+    "name": "Python",
+    "category": "Technical",
+    "aliases": [
+      "python",
+      "python programming"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Pandas",
+      "NumPy"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "r_programming",
+    "name": "R Programming",
+    "category": "Technical",
+    "aliases": [
+      "r programming",
+      "programming in r"
+    ],
+    "review_aliases": [],
+    "related": [],
+    "implied_by": []
+  },
+  {
+    "id": "java",
+    "name": "Java",
+    "category": "Technical",
+    "aliases": [
+      "java",
+      "java programming"
+    ],
+    "review_aliases": [],
+    "related": [],
+    "implied_by": []
+  },
+  {
+    "id": "javascript",
+    "name": "JavaScript",
+    "category": "Technical",
+    "aliases": [
+      "javascript",
+      "js",
+      "ecmascript"
+    ],
+    "review_aliases": [],
+    "related": [],
+    "implied_by": []
+  },
+  {
+    "id": "typescript",
+    "name": "TypeScript",
+    "category": "Technical",
+    "aliases": [
+      "typescript",
+      "ts"
+    ],
+    "review_aliases": [],
+    "related": [
+      "JavaScript"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "cpp",
+    "name": "C++",
+    "category": "Technical",
+    "aliases": [
+      "c++",
+      "cpp"
+    ],
+    "review_aliases": [],
+    "related": [
+      "C#"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "csharp",
+    "name": "C#",
+    "category": "Technical",
+    "aliases": [
+      "c#",
+      "c sharp",
+      "csharp"
+    ],
+    "review_aliases": [],
+    "related": [
+      "C++"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "html_css",
+    "name": "HTML/CSS",
+    "category": "Technical",
+    "aliases": [
+      "html/css",
+      "html",
+      "css",
+      "html5",
+      "css3"
+    ],
+    "review_aliases": [],
+    "related": [
+      "JavaScript"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "rest_api_development",
+    "name": "REST API Development",
+    "category": "Technical",
+    "aliases": [
+      "rest api",
+      "rest apis",
+      "restful api",
+      "restful services",
+      "rest api development"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Node.js"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "git",
+    "name": "Git",
+    "category": "Technical",
+    "aliases": [
+      "git",
+      "git version control",
+      "version control with git"
+    ],
+    "review_aliases": [],
+    "related": [
+      "GitHub"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "docker",
+    "name": "Docker",
+    "category": "Technical",
+    "aliases": [
+      "docker",
+      "docker containers",
+      "containerization"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Linux",
+      "Kubernetes"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "linux",
+    "name": "Linux",
+    "category": "Technical",
+    "aliases": [
+      "linux",
+      "linux operating system"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Docker"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "power_bi",
+    "name": "Power BI",
+    "category": "Technical",
+    "aliases": [
+      "power bi",
+      "powerbi",
+      "microsoft power bi"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Tableau",
+      "Data Visualization"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "tableau",
+    "name": "Tableau",
+    "category": "Technical",
+    "aliases": [
+      "tableau",
+      "tableau software"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Power BI",
+      "Data Visualization"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "data_visualization",
+    "name": "Data Visualization",
+    "category": "Technical",
+    "aliases": [
+      "data visualization",
+      "data visualisation"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Power BI",
+      "Tableau"
+    ],
+    "implied_by": [
+      "build dashboards",
+      "create dashboards",
+      "weekly dashboards"
+    ]
+  },
+  {
+    "id": "data_cleaning",
+    "name": "Data Cleaning",
+    "category": "Technical",
+    "aliases": [
+      "data cleaning",
+      "data cleansing",
+      "data preprocessing"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Data Analysis"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "data_analysis",
+    "name": "Data Analysis",
+    "category": "Technical",
+    "aliases": [
+      "data analysis",
+      "data analytics"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Statistics",
+      "Data Visualization"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "statistics",
+    "name": "Statistics",
+    "category": "Technical",
+    "aliases": [
+      "statistics",
+      "statistical analysis"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Data Analysis"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "machine_learning",
+    "name": "Machine Learning",
+    "category": "Technical",
+    "aliases": [
+      "machine learning",
+      "ml"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Deep Learning",
+      "Scikit-learn"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "deep_learning",
+    "name": "Deep Learning",
+    "category": "Technical",
+    "aliases": [
+      "deep learning",
+      "neural networks"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Machine Learning",
+      "TensorFlow",
+      "PyTorch"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "nlp",
+    "name": "Natural Language Processing",
+    "category": "Technical",
+    "aliases": [
+      "nlp",
+      "natural language processing"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Machine Learning"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "pandas",
+    "name": "Pandas",
+    "category": "Technical",
+    "aliases": [
+      "pandas",
+      "python pandas library"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Python",
+      "NumPy"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "numpy",
+    "name": "NumPy",
+    "category": "Technical",
+    "aliases": [
+      "numpy",
+      "numerical python"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Python",
+      "Pandas"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "scikit_learn",
+    "name": "Scikit-learn",
+    "category": "Technical",
+    "aliases": [
+      "scikit-learn",
+      "scikit learn",
+      "sklearn"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Machine Learning",
+      "Python"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "tensorflow",
+    "name": "TensorFlow",
+    "category": "Technical",
+    "aliases": [
+      "tensorflow",
+      "tensorflow framework"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Deep Learning",
+      "Python"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "pytorch",
+    "name": "PyTorch",
+    "category": "Technical",
+    "aliases": [
+      "pytorch",
+      "torch framework"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Deep Learning",
+      "Python"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "etl",
+    "name": "ETL",
+    "category": "Technical",
+    "aliases": [
+      "etl",
+      "extract transform load",
+      "extract transform and load"
+    ],
+    "review_aliases": [],
+    "related": [
+      "SQL",
+      "Data Cleaning"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "mysql",
+    "name": "MySQL",
+    "category": "Technical",
+    "aliases": [
+      "mysql",
+      "mysql database"
+    ],
+    "review_aliases": [],
+    "related": [
+      "SQL"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "postgresql",
+    "name": "PostgreSQL",
+    "category": "Technical",
+    "aliases": [
+      "postgresql",
+      "postgres"
+    ],
+    "review_aliases": [],
+    "related": [
+      "SQL"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "mongodb",
+    "name": "MongoDB",
+    "category": "Technical",
+    "aliases": [
+      "mongodb",
+      "mongo database"
+    ],
+    "review_aliases": [],
+    "related": [],
+    "implied_by": []
+  },
+  {
+    "id": "aws",
+    "name": "AWS",
+    "category": "Technical",
+    "aliases": [
+      "aws",
+      "amazon web services"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Azure"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "azure",
+    "name": "Azure",
+    "category": "Technical",
+    "aliases": [
+      "azure",
+      "microsoft azure"
+    ],
+    "review_aliases": [],
+    "related": [
+      "AWS"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "react",
+    "name": "React",
+    "category": "Technical",
+    "aliases": [
+      "react",
+      "react.js",
+      "reactjs"
+    ],
+    "review_aliases": [],
+    "related": [
+      "JavaScript",
+      "Node.js"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "node_js",
+    "name": "Node.js",
+    "category": "Technical",
+    "aliases": [
+      "node.js",
+      "nodejs",
+      "node js"
+    ],
+    "review_aliases": [],
+    "related": [
+      "JavaScript",
+      "REST API Development"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "communication",
+    "name": "Communication",
+    "category": "Non-technical",
+    "aliases": [
+      "communication",
+      "verbal communication",
+      "written communication"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Presentation Skills",
+      "Stakeholder Management"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "teamwork",
+    "name": "Teamwork",
+    "category": "Non-technical",
+    "aliases": [
+      "teamwork",
+      "team work",
+      "working in a team"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Collaboration",
+      "Communication"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "problem_solving",
+    "name": "Problem Solving",
+    "category": "Non-technical",
+    "aliases": [
+      "problem solving",
+      "problem-solving",
+      "problem solving skills"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Critical Thinking"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "leadership",
+    "name": "Leadership",
+    "category": "Non-technical",
+    "aliases": [
+      "leadership",
+      "team leadership",
+      "people leadership"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Stakeholder Management",
+      "Teamwork"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "time_management",
+    "name": "Time Management",
+    "category": "Non-technical",
+    "aliases": [
+      "time management",
+      "time-management",
+      "time management skills"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Organization Skills"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "critical_thinking",
+    "name": "Critical Thinking",
+    "category": "Non-technical",
+    "aliases": [
+      "critical thinking",
+      "analytical thinking"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Problem Solving"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "stakeholder_management",
+    "name": "Stakeholder Management",
+    "category": "Non-technical",
+    "aliases": [
+      "stakeholder management",
+      "stakeholder engagement"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Communication",
+      "Leadership"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "presentation_skills",
+    "name": "Presentation Skills",
+    "category": "Non-technical",
+    "aliases": [
+      "presentation skills",
+      "presentation",
+      "presenting information"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Communication",
+      "Data Visualization"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "customer_service",
+    "name": "Customer Service",
+    "category": "Non-technical",
+    "aliases": [
+      "customer service",
+      "customer support",
+      "client service",
+      "customer care"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Communication",
+      "Problem Solving"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "sales",
+    "name": "Sales",
+    "category": "Non-technical",
+    "aliases": [
+      "sales",
+      "selling",
+      "sales activities"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Negotiation",
+      "Communication"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "attention_to_detail",
+    "name": "Attention to Detail",
+    "category": "Non-technical",
+    "aliases": [
+      "attention to detail",
+      "detail oriented",
+      "detail-oriented",
+      "strong attention to detail"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Quality Assurance"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "business_development",
+    "name": "Business Development",
+    "category": "Non-technical",
+    "aliases": [
+      "business development",
+      "business growth",
+      "business expansion"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Sales",
+      "Lead Generation",
+      "Networking"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "project_management",
+    "name": "Project Management",
+    "category": "Non-technical",
+    "aliases": [
+      "project management",
+      "project planning",
+      "project coordination"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Time Management",
+      "Leadership"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "employee_relations",
+    "name": "Employee Relations",
+    "category": "Non-technical",
+    "aliases": [
+      "employee relations",
+      "employee engagement",
+      "workplace relations"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Human Resources",
+      "Conflict Resolution"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "negotiation",
+    "name": "Negotiation",
+    "category": "Non-technical",
+    "aliases": [
+      "negotiation",
+      "negotiation skills",
+      "contract negotiation"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Communication",
+      "Sales"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "organizational_skills",
+    "name": "Organizational Skills",
+    "category": "Non-technical",
+    "aliases": [
+      "organizational skills",
+      "organisation skills",
+      "organizational ability",
+      "organization skills",
+      "organisation"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Time Management"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "microsoft_office",
+    "name": "Microsoft Office",
+    "category": "Technical",
+    "aliases": [
+      "microsoft office",
+      "ms office",
+      "office suite",
+      "microsoft office suite"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Excel / Spreadsheets"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "budgeting",
+    "name": "Budgeting",
+    "category": "Technical",
+    "aliases": [
+      "budgeting",
+      "budget planning",
+      "budget management"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Financial Analysis",
+      "Forecasting"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "accounting",
+    "name": "Accounting",
+    "category": "Technical",
+    "aliases": [
+      "accounting",
+      "financial accounting",
+      "accounting principles"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Financial Reporting",
+      "Finance"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "confidentiality",
+    "name": "Confidentiality",
+    "category": "Non-technical",
+    "aliases": [
+      "confidentiality",
+      "confidential information",
+      "handling confidential information"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Compliance"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "compliance",
+    "name": "Compliance",
+    "category": "Non-technical",
+    "aliases": [
+      "compliance",
+      "regulatory compliance",
+      "policy compliance"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Confidentiality",
+      "Documentation"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "recruitment",
+    "name": "Recruitment",
+    "category": "Non-technical",
+    "aliases": [
+      "recruitment",
+      "recruiting",
+      "candidate recruitment",
+      "recruitment process"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Talent Acquisition",
+      "Interviewing"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "initiative",
+    "name": "Initiative",
+    "category": "Non-technical",
+    "aliases": [
+      "initiative",
+      "self-starter",
+      "self starter",
+      "proactive"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Problem Solving"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "integrity",
+    "name": "Integrity",
+    "category": "Non-technical",
+    "aliases": [
+      "integrity",
+      "professional integrity",
+      "ethical conduct"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Confidentiality"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "financial_analysis",
+    "name": "Financial Analysis",
+    "category": "Technical",
+    "aliases": [
+      "financial analysis",
+      "finance analysis",
+      "financial modelling",
+      "financial modeling"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Accounting",
+      "Budgeting",
+      "Forecasting"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "networking",
+    "name": "Networking",
+    "category": "Non-technical",
+    "aliases": [
+      "networking",
+      "relationship building",
+      "professional networking"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Communication",
+      "Business Development"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "analytical_skills",
+    "name": "Analytical Skills",
+    "category": "Non-technical",
+    "aliases": [
+      "analytical skills",
+      "analytical ability",
+      "strong analytical skills"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Critical Thinking",
+      "Problem Solving"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "forecasting",
+    "name": "Forecasting",
+    "category": "Technical",
+    "aliases": [
+      "forecasting",
+      "sales forecasting",
+      "financial forecasting",
+      "demand forecasting"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Data Analysis",
+      "Budgeting"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "change_management",
+    "name": "Change Management",
+    "category": "Non-technical",
+    "aliases": [
+      "change management",
+      "managing change",
+      "organizational change"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Project Management",
+      "Communication"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "coaching",
+    "name": "Coaching",
+    "category": "Non-technical",
+    "aliases": [
+      "coaching",
+      "employee coaching",
+      "staff coaching",
+      "mentoring"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Leadership",
+      "Training"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "salesforce",
+    "name": "Salesforce",
+    "category": "Technical",
+    "aliases": [
+      "salesforce",
+      "salesforce crm",
+      "salesforce.com"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Customer Relationship Management"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "onboarding",
+    "name": "Onboarding",
+    "category": "Non-technical",
+    "aliases": [
+      "onboarding",
+      "employee onboarding",
+      "new hire onboarding"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Human Resources",
+      "Training"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "lead_generation",
+    "name": "Lead Generation",
+    "category": "Non-technical",
+    "aliases": [
+      "lead generation",
+      "lead gen",
+      "prospecting"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Sales",
+      "Business Development"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "troubleshooting",
+    "name": "Troubleshooting",
+    "category": "Technical",
+    "aliases": [
+      "troubleshooting",
+      "technical troubleshooting",
+      "diagnosing issues"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Problem Solving",
+      "Technical Support"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "financial_reporting",
+    "name": "Financial Reporting",
+    "category": "Technical",
+    "aliases": [
+      "financial reporting",
+      "financial reports",
+      "preparing financial reports"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Accounting",
+      "Financial Analysis"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "documentation",
+    "name": "Documentation",
+    "category": "Non-technical",
+    "aliases": [
+      "documentation",
+      "technical documentation",
+      "document preparation",
+      "record keeping",
+      "record-keeping"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Communication",
+      "Compliance"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "hris",
+    "name": "HRIS",
+    "category": "Technical",
+    "aliases": [
+      "hris",
+      "human resources information system",
+      "human resource information system"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Human Resources",
+      "Data Management"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "talent_acquisition",
+    "name": "Talent Acquisition",
+    "category": "Non-technical",
+    "aliases": [
+      "talent acquisition",
+      "talent sourcing",
+      "candidate sourcing"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Recruitment",
+      "Human Resources"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "flexibility",
+    "name": "Flexibility",
+    "category": "Non-technical",
+    "aliases": [
+      "flexibility",
+      "adaptability",
+      "adaptable",
+      "flexible"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Problem Solving"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "marketing",
+    "name": "Marketing",
+    "category": "Non-technical",
+    "aliases": [
+      "marketing",
+      "marketing strategy",
+      "digital marketing",
+      "market research"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Business Development",
+      "Communication"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "sap",
+    "name": "SAP",
+    "category": "Technical",
+    "aliases": [
+      "sap",
+      "sap software",
+      "sap erp"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Enterprise Resource Planning"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "finance",
+    "name": "Finance",
+    "category": "Technical",
+    "aliases": [
+      "finance",
+      "financial management",
+      "corporate finance"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Accounting",
+      "Financial Analysis"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "human_resources",
+    "name": "Human Resources",
+    "category": "Non-technical",
+    "aliases": [
+      "human resources",
+      "human resource management",
+      "hr",
+      "hr management"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Employee Relations",
+      "Recruitment",
+      "Onboarding"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "conflict_resolution",
+    "name": "Conflict Resolution",
+    "category": "Non-technical",
+    "aliases": [
+      "conflict resolution",
+      "resolving conflicts",
+      "dispute resolution"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Communication",
+      "Employee Relations"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "training",
+    "name": "Training",
+    "category": "Non-technical",
+    "aliases": [
+      "training",
+      "staff training",
+      "employee training",
+      "training delivery"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Coaching",
+      "Onboarding"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "customer_relationship_management",
+    "name": "Customer Relationship Management",
+    "category": "Technical",
+    "aliases": [
+      "customer relationship management",
+      "crm",
+      "crm software"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Salesforce",
+      "Customer Service"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "quality_assurance",
+    "name": "Quality Assurance",
+    "category": "Technical",
+    "aliases": [
+      "quality assurance",
+      "qa",
+      "quality control",
+      "quality checking"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Attention to Detail",
+      "Testing"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "technical_support",
+    "name": "Technical Support",
+    "category": "Technical",
+    "aliases": [
+      "technical support",
+      "IT support",
+      "help desk",
+      "helpdesk"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Troubleshooting",
+      "Customer Service"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "data_management",
+    "name": "Data Management",
+    "category": "Technical",
+    "aliases": [
+      "data management",
+      "data governance",
+      "data handling"
+    ],
+    "review_aliases": [],
+    "related": [
+      "SQL",
+      "Data Cleaning"
+    ],
+    "implied_by": []
+  },
+  {
+    "id": "interpersonal_skills",
+    "name": "Interpersonal Skills",
+    "category": "Non-technical",
+    "aliases": [
+      "interpersonal skills",
+      "interpersonal communication",
+      "people skills"
+    ],
+    "review_aliases": [],
+    "related": [
+      "Communication",
+      "Teamwork"
+    ],
+    "implied_by": []
+  }
+]

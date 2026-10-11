@@ -1,0 +1,768 @@
+/* ===================================================================
+   SkillLens AI — Neubrutalist Design System
+   Warm paper canvas · Ink borders · Acid lime accents
+   Space Grotesk + IBM Plex Sans + IBM Plex Mono
+   =================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+/* ────────── Design Tokens ────────── */
+
+:root {
+    /* Surfaces */
+    --canvas:       #F6F3EA;
+    --surface:      #FFFDF7;
+    --ink:          #171717;
+    --ink-light:    #3a3a3a;
+    --ink-muted:    #6b6b6b;
+
+    /* Accent */
+    --accent:       #D9F36A;
+    --accent-hover: #c8e24a;
+
+    /* Semantic status */
+    --mandatory-bg: #D8F0D5;
+    --mandatory-fg: #1a5c14;
+    --preferred-bg: #FFE4A3;
+    --preferred-fg: #6b4c00;
+    --uncertain-bg: #F7D3CC;
+    --uncertain-fg: #8b2a1a;
+    --neutral-bg:   #E6E3DA;
+    --neutral-fg:   #6b6b6b;
+
+    /* Structural */
+    --border:       2px solid var(--ink);
+    --border-heavy: 3px solid var(--ink);
+    --shadow:       4px 4px 0 var(--ink);
+    --shadow-sm:    2px 2px 0 var(--ink);
+    --radius:       3px;
+
+    /* Spacing scale (4px base) */
+    --sp-1: 4px;
+    --sp-2: 8px;
+    --sp-3: 12px;
+    --sp-4: 16px;
+    --sp-5: 20px;
+    --sp-6: 24px;
+    --sp-7: 32px;
+    --sp-8: 40px;
+    --sp-9: 48px;
+    --sp-10: 64px;
+
+    /* Typography */
+    --font-heading: 'Space Grotesk', 'Arial Black', sans-serif;
+    --font-body:    'IBM Plex Sans', 'Segoe UI', sans-serif;
+    --font-mono:    'IBM Plex Mono', 'Consolas', monospace;
+}
+
+/* ────────── Global Reset ────────── */
+
+html, body, [data-testid="stAppViewContainer"], [data-testid="stApp"] {
+    font-family: var(--font-body);
+    background-color: var(--canvas) !important;
+    color: var(--ink) !important;
+}
+span.material-symbols-rounded, .stIcon, [class*="icon"] {
+    font-family: "Material Symbols Rounded", "Material Icons", sans-serif !important;
+}
+[data-testid="stMainBlockContainer"] {
+    max-width: 1200px !important;
+    padding-left: var(--sp-7) !important;
+    padding-right: var(--sp-7) !important;
+}
+
+/* ────────── Header ────────── */
+
+header[data-testid="stHeader"] {
+    background: var(--canvas) !important;
+    border-bottom: var(--border) !important;
+}
+
+/* ────────── Sidebar ────────── */
+
+[data-testid="stSidebar"] {
+    background-color: var(--surface) !important;
+    border-right: var(--border) !important;
+}
+[data-testid="stSidebar"] * {
+    color: var(--ink) !important;
+}
+[data-testid="stSidebar"] hr {
+    border-color: var(--ink) !important;
+    opacity: 0.15 !important;
+}
+[data-testid="stSidebar"] [data-testid="stMetric"] {
+    background: var(--canvas) !important;
+    border: var(--border) !important;
+    border-radius: var(--radius) !important;
+    padding: var(--sp-3) var(--sp-4) !important;
+    box-shadow: var(--shadow-sm) !important;
+}
+[data-testid="stSidebar"] [data-testid="stMetricValue"] {
+    color: var(--ink) !important;
+    font-family: var(--font-heading) !important;
+    font-weight: 700 !important;
+    font-size: 1.4rem !important;
+}
+[data-testid="stSidebar"] [data-testid="stMetricLabel"] {
+    color: var(--ink-muted) !important;
+    font-family: var(--font-mono) !important;
+    font-size: 0.68rem !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.08em !important;
+}
+
+/* ────────── Typography ────────── */
+
+h1 {
+    font-family: var(--font-heading) !important;
+    font-weight: 700 !important;
+    color: var(--ink) !important;
+    letter-spacing: -0.03em !important;
+    font-size: 1.8rem !important;
+    line-height: 1.15 !important;
+}
+h2, h3, h4, h5 {
+    font-family: var(--font-heading) !important;
+    font-weight: 600 !important;
+    color: var(--ink) !important;
+    letter-spacing: -0.02em !important;
+}
+h3 { font-size: 1.2rem !important; }
+h5 { font-size: 0.88rem !important; }
+p, li, label, [data-testid="stText"] {
+    color: var(--ink-light) !important;
+    font-family: var(--font-body);
+}
+code {
+    font-family: var(--font-mono) !important;
+}
+
+/* ────────── Tabs (Navigation) ────────── */
+
+[data-testid="stTabs"] [role="tablist"] {
+    border-bottom: var(--border) !important;
+    gap: 0 !important;
+    background: transparent !important;
+}
+[data-testid="stTabs"] button[data-baseweb="tab"] {
+    font-family: var(--font-heading) !important;
+    font-weight: 600 !important;
+    font-size: 0.82rem !important;
+    color: var(--ink-muted) !important;
+    background: transparent !important;
+    border: none !important;
+    border-bottom: 3px solid transparent !important;
+    padding: var(--sp-3) var(--sp-5) !important;
+    letter-spacing: 0.02em !important;
+    text-transform: uppercase !important;
+    transition: color 0.15s ease, border-color 0.15s ease !important;
+    border-radius: 0 !important;
+}
+[data-testid="stTabs"] button[data-baseweb="tab"]:hover {
+    color: var(--ink) !important;
+    background: transparent !important;
+}
+[data-testid="stTabs"] button[aria-selected="true"] {
+    color: var(--ink) !important;
+    border-bottom: 3px solid var(--ink) !important;
+    background: var(--accent) !important;
+}
+
+/* ────────── Metric Cards ────────── */
+
+[data-testid="stMetric"] {
+    background: var(--surface) !important;
+    border: var(--border) !important;
+    border-radius: var(--radius) !important;
+    padding: var(--sp-4) var(--sp-5) !important;
+    box-shadow: var(--shadow-sm) !important;
+    transition: box-shadow 0.15s ease !important;
+}
+[data-testid="stMetric"]:hover {
+    box-shadow: var(--shadow) !important;
+}
+[data-testid="stMetricLabel"] {
+    font-family: var(--font-mono) !important;
+    color: var(--ink-muted) !important;
+    font-size: 0.68rem !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.08em !important;
+}
+[data-testid="stMetricValue"] {
+    font-family: var(--font-heading) !important;
+    color: var(--ink) !important;
+    font-weight: 700 !important;
+    font-size: 1.6rem !important;
+}
+
+/* ────────── Buttons: Primary ────────── */
+
+[data-testid="stButton"] button[kind="primary"],
+button[kind="primary"] {
+    font-family: var(--font-heading);
+    background: var(--accent) !important;
+    color: var(--ink) !important;
+    border: var(--border) !important;
+    border-radius: var(--radius) !important;
+    font-weight: 600 !important;
+    font-size: 0.82rem !important;
+    padding: var(--sp-2) var(--sp-5) !important;
+    box-shadow: var(--shadow) !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.04em !important;
+    transition: box-shadow 0.1s ease, transform 0.1s ease !important;
+}
+[data-testid="stButton"] button[kind="primary"]:hover,
+button[kind="primary"]:hover {
+    box-shadow: 2px 2px 0 var(--ink) !important;
+    transform: translate(2px, 2px) !important;
+}
+[data-testid="stButton"] button[kind="primary"]:active,
+button[kind="primary"]:active {
+    box-shadow: 0 0 0 var(--ink) !important;
+    transform: translate(4px, 4px) !important;
+}
+
+/* ────────── Buttons: Secondary ────────── */
+
+[data-testid="stButton"] button[kind="secondary"],
+button[kind="secondary"],
+[data-testid="stButton"] button:not([kind]) {
+    font-family: var(--font-body);
+    background: var(--surface) !important;
+    color: var(--ink) !important;
+    border: var(--border) !important;
+    border-radius: var(--radius) !important;
+    font-weight: 500 !important;
+    font-size: 0.82rem !important;
+    padding: var(--sp-2) var(--sp-4) !important;
+    box-shadow: var(--shadow-sm) !important;
+    transition: box-shadow 0.1s ease, transform 0.1s ease !important;
+}
+[data-testid="stButton"] button[kind="secondary"]:hover,
+button[kind="secondary"]:hover,
+[data-testid="stButton"] button:not([kind]):hover {
+    box-shadow: 1px 1px 0 var(--ink) !important;
+    transform: translate(1px, 1px) !important;
+}
+
+/* ────────── Download Buttons ────────── */
+
+[data-testid="stDownloadButton"] button {
+    font-family: var(--font-heading);
+    background: var(--surface) !important;
+    color: var(--ink) !important;
+    border: var(--border) !important;
+    border-radius: var(--radius) !important;
+    font-weight: 600 !important;
+    font-size: 0.82rem !important;
+    padding: var(--sp-3) var(--sp-5) !important;
+    box-shadow: var(--shadow) !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.03em !important;
+    transition: box-shadow 0.1s ease, transform 0.1s ease !important;
+}
+[data-testid="stDownloadButton"] button:hover {
+    background: var(--accent) !important;
+    box-shadow: 2px 2px 0 var(--ink) !important;
+    transform: translate(2px, 2px) !important;
+}
+
+/* ────────── Form Inputs ────────── */
+
+[data-baseweb="input"] > div,
+[data-baseweb="textarea"] > div,
+[data-baseweb="select"] > div {
+    background: var(--surface) !important;
+    border: var(--border) !important;
+    border-radius: var(--radius) !important;
+    transition: box-shadow 0.1s ease !important;
+}
+
+[data-baseweb="input"] > div:focus-within,
+[data-baseweb="textarea"] > div:focus-within,
+[data-baseweb="select"] > div:focus-within {
+    box-shadow: var(--shadow-sm) !important;
+    border-color: var(--ink) !important;
+}
+
+[data-baseweb="input"] input,
+[data-baseweb="textarea"] textarea {
+    font-family: var(--font-body);
+    color: var(--ink) !important;
+    font-size: 0.88rem !important;
+    background: transparent !important;
+}
+
+[data-testid="stTextArea"] label,
+[data-testid="stTextInput"] label,
+[data-testid="stNumberInput"] label,
+[data-testid="stSelectbox"] label {
+    font-family: var(--font-mono) !important;
+    font-size: 0.72rem !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.06em !important;
+    color: var(--ink-muted) !important;
+    font-weight: 500 !important;
+}
+
+/* Selectbox inner */
+[data-baseweb="select"] {
+    font-family: var(--font-body);
+}
+
+/* Checkbox */
+[data-testid="stCheckbox"] label {
+    font-family: var(--font-body) !important;
+    font-size: 0.85rem !important;
+    color: var(--ink-light) !important;
+}
+
+/* ────────── File Uploader ────────── */
+
+[data-testid="stFileUploader"] {
+    background: var(--surface) !important;
+    border: 2px dashed var(--ink) !important;
+    border-radius: var(--radius) !important;
+    padding: var(--sp-5) var(--sp-4) !important;
+    margin-bottom: var(--sp-4);
+}
+[data-testid="stFileUploader"] small, [data-testid="stFileUploader"] .st-dz-message {
+    font-family: var(--font-mono) !important;
+    font-size: 0.8rem !important;
+    color: var(--ink) !important;
+    font-weight: 500 !important;
+    opacity: 0.8;
+}
+[data-testid="stFileUploader"]:hover {
+    background: var(--accent) !important;
+    border-style: solid !important;
+}
+
+/* ────────── Data Editor / DataFrame ────────── */
+
+[data-testid="stDataFrame"],
+[data-testid="stDataEditor"] {
+    border: var(--border) !important;
+    border-radius: var(--radius) !important;
+    overflow: hidden !important;
+    box-shadow: var(--shadow-sm) !important;
+}
+
+/* ────────── Expander ────────── */
+
+[data-testid="stExpander"] {
+    background: var(--surface) !important;
+    border: var(--border) !important;
+    border-radius: var(--radius) !important;
+}
+[data-testid="stExpander"] summary {
+    font-family: var(--font-heading) !important;
+    font-weight: 600 !important;
+    color: var(--ink) !important;
+    font-size: 0.85rem !important;
+}
+
+/* ────────── Alerts ────────── */
+
+[data-testid="stAlert"] {
+    border-radius: var(--radius) !important;
+    border: var(--border) !important;
+    font-family: var(--font-body) !important;
+}
+
+/* ────────── Progress Bar ────────── */
+
+[data-testid="stProgress"] > div > div > div {
+    background: var(--accent) !important;
+    border-radius: 0 !important;
+}
+[data-testid="stProgress"] > div > div {
+    background: var(--surface) !important;
+    border: 1px solid var(--ink) !important;
+    border-radius: var(--radius) !important;
+    min-height: 16px !important;
+}
+
+/* ────────── Dividers ────────── */
+
+hr {
+    border-color: var(--ink) !important;
+    opacity: 0.12 !important;
+}
+
+/* ────────── Caption / small text ────────── */
+
+[data-testid="stCaptionContainer"] {
+    font-family: var(--font-mono) !important;
+    font-size: 0.72rem !important;
+    color: var(--ink-muted) !important;
+}
+
+/* ================================================================
+   Custom Components (rendered via st.markdown unsafe_allow_html)
+   ================================================================ */
+
+/* ── App Header ── */
+
+.app-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--sp-4) 0;
+    margin-bottom: var(--sp-2);
+    border-bottom: var(--border-heavy);
+}
+.app-header__brand {
+    display: flex;
+    align-items: baseline;
+    gap: var(--sp-3);
+}
+.app-header__name {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: var(--ink);
+    background: var(--accent);
+    padding: var(--sp-2) var(--sp-4);
+    border: 2px solid var(--ink);
+    border-radius: var(--radius);
+    box-shadow: 4px 4px 0px var(--ink);
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+}
+.app-header__tag {
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    color: var(--ink-muted);
+    background: var(--accent);
+    padding: 2px 8px;
+    border: 1px solid var(--ink);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-weight: 500;
+}
+
+/* ── Section Label ── */
+
+.section-label {
+    font-family: var(--font-mono) !important;
+    font-size: 0.68rem !important;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--ink-muted) !important;
+    font-weight: 500;
+    margin-bottom: var(--sp-2);
+    padding-bottom: var(--sp-1);
+    border-bottom: 1px solid rgba(23,23,23,0.1);
+}
+
+/* ── Status Badges ── */
+
+.badge {
+    display: inline-block;
+    padding: 2px 8px;
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border: 1px solid var(--ink);
+    border-radius: var(--radius);
+}
+.badge-mandatory { background: var(--mandatory-bg); color: var(--mandatory-fg); }
+.badge-preferred { background: var(--preferred-bg); color: var(--preferred-fg); }
+.badge-uncertain { background: var(--uncertain-bg); color: var(--uncertain-fg); }
+.badge-pending   { background: var(--neutral-bg); color: var(--ink-muted); }
+.badge-approved  { background: var(--mandatory-bg); color: var(--mandatory-fg); }
+.badge-rejected  { background: var(--uncertain-bg); color: var(--uncertain-fg); }
+.badge-edited    { background: var(--preferred-bg); color: var(--preferred-fg); }
+
+/* ── Skill Chips ── */
+
+.skill-chip {
+    display: inline-block;
+    padding: 3px 10px;
+    margin: 2px 4px 2px 0;
+    font-family: var(--font-mono);
+    font-size: 0.74rem;
+    font-weight: 500;
+    background: var(--surface);
+    border: var(--border);
+    border-radius: var(--radius);
+    color: var(--ink);
+}
+.skill-chip.common {
+    background: var(--mandatory-bg);
+    color: var(--mandatory-fg);
+}
+.skill-chip.unique {
+    background: #dce8f8;
+    color: #1a3a6b;
+}
+.skill-chip.differing {
+    background: var(--preferred-bg);
+    color: var(--preferred-fg);
+}
+
+/* ── Proto Banner ── */
+
+.proto-banner {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    color: var(--ink-muted);
+    background: var(--canvas);
+    border-left: 3px solid var(--ink);
+    padding: var(--sp-3) var(--sp-4);
+    margin-bottom: var(--sp-4);
+    line-height: 1.5;
+}
+.proto-banner strong {
+    color: var(--ink) !important;
+}
+
+/* ── Empty State ── */
+
+.empty-state {
+    text-align: left;
+    padding: var(--sp-8) var(--sp-6);
+    border: 2px dashed rgba(23,23,23,0.15);
+    border-radius: var(--radius);
+    background: var(--surface);
+}
+.empty-state .empty-label {
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--ink-muted);
+    margin-bottom: var(--sp-2);
+}
+.empty-state p {
+    font-family: var(--font-body) !important;
+    color: var(--ink-muted) !important;
+    font-size: 0.88rem;
+    max-width: 480px;
+    margin: 0;
+    line-height: 1.5;
+}
+
+/* ── Loaded Job Row ── */
+
+.job-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--sp-3) var(--sp-4);
+    background: var(--surface);
+    border: var(--border);
+    border-radius: var(--radius);
+    margin-bottom: var(--sp-2);
+    box-shadow: var(--shadow-sm);
+}
+.job-row__name {
+    font-family: var(--font-heading);
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: var(--ink);
+}
+.job-row__meta {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    color: var(--ink-muted);
+}
+
+/* ── Legend Row ── */
+
+.legend {
+    display: flex;
+    gap: var(--sp-4);
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: var(--sp-4);
+    padding: var(--sp-3) 0;
+    border-bottom: 1px solid rgba(23,23,23,0.1);
+}
+.legend__item {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-2);
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--ink-muted);
+}
+.legend__swatch {
+    width: 14px;
+    height: 14px;
+    border: 1px solid var(--ink);
+    border-radius: 2px;
+    display: inline-block;
+}
+
+/* ── Requirement Profile Cards ── */
+
+.req-card {
+    background: var(--surface);
+    border: var(--border-heavy);
+    border-radius: var(--radius);
+    padding: var(--sp-5);
+    margin-bottom: var(--sp-5);
+    box-shadow: 6px 6px 0px var(--ink);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.req-card:hover {
+    transform: translate(-3px, -3px);
+    box-shadow: 9px 9px 0px var(--ink);
+}
+.req-card__header {
+    font-family: var(--font-heading);
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: var(--ink);
+    border-bottom: 2px solid var(--ink);
+    padding-bottom: var(--sp-2);
+    margin-bottom: var(--sp-4);
+    text-transform: uppercase;
+}
+.req-card__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--sp-4);
+}
+.req-card__block {
+    background: var(--canvas);
+    border: var(--border);
+    padding: var(--sp-4);
+    border-radius: var(--radius);
+    box-shadow: 2px 2px 0px var(--ink);
+}
+.req-card__label {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    color: var(--ink-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: var(--sp-2);
+    font-weight: 600;
+}
+.req-card__value {
+    font-family: var(--font-body);
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--ink);
+    line-height: 1.4;
+}
+.req-card__section {
+    margin-top: var(--sp-5);
+    padding-top: var(--sp-4);
+    border-top: 1px dashed rgba(23, 23, 23, 0.2);
+}
+.req-card__section-title {
+    font-family: var(--font-heading);
+    font-size: 0.9rem;
+    font-weight: 800;
+    margin-bottom: var(--sp-3);
+    color: var(--ink);
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+}
+.req-card__chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--sp-2);
+}
+
+/* ── Skills Group ── */
+
+.skills-group {
+    margin-bottom: var(--sp-5);
+}
+.skills-group__header {
+    font-family: var(--font-heading);
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--ink);
+    margin-bottom: var(--sp-1);
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+}
+.skills-group__desc {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    color: var(--ink-muted);
+    margin-bottom: var(--sp-2);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+.skills-group__empty {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    color: var(--ink-muted);
+    font-style: italic;
+}
+
+/* ── Custom Compare Table ── */
+
+.compare-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: var(--sp-4);
+    margin-bottom: var(--sp-4);
+    background: var(--surface);
+    border: var(--border-heavy);
+    font-family: var(--font-body);
+    box-shadow: var(--shadow);
+}
+.compare-table th, .compare-table td {
+    border: var(--border);
+    padding: var(--sp-3) var(--sp-4);
+    text-align: left;
+}
+.compare-table th {
+    background: var(--canvas);
+    font-family: var(--font-heading);
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.05em;
+    color: var(--ink);
+}
+.compare-table td.skill-name {
+    font-weight: 700;
+    font-family: var(--font-heading);
+    color: var(--ink);
+}
+.compare-table td.cell-mandatory { background-color: var(--mandatory-bg); color: var(--mandatory-fg); font-family: var(--font-mono); font-size: 0.8rem; font-weight: 600; }
+.compare-table td.cell-preferred { background-color: var(--preferred-bg); color: var(--preferred-fg); font-family: var(--font-mono); font-size: 0.8rem; font-weight: 600; }
+.compare-table td.cell-uncertain { background-color: var(--uncertain-bg); color: var(--uncertain-fg); font-family: var(--font-mono); font-size: 0.8rem; font-weight: 600; }
+.compare-table td.cell-not-mentioned { background-color: var(--neutral-bg); color: var(--neutral-fg); font-family: var(--font-mono); font-size: 0.8rem; }
+
+/* ── Shapes & Animations ── */
+
+@keyframes slightBounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-3px); }
+}
+
+.shape-icon {
+    display: inline-block;
+    margin-right: 8px;
+    color: var(--accent-hover);
+    animation: slightBounce 3s infinite ease-in-out;
+}
+
+.card-container {
+    background: var(--surface);
+    border: var(--border);
+    border-radius: var(--radius);
+    padding: var(--sp-5);
+    margin-bottom: var(--sp-4);
+    box-shadow: var(--shadow-sm);
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+.card-container:hover {
+    box-shadow: var(--shadow);
+    transform: translateY(-2px);
+}

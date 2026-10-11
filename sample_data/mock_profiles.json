@@ -1,0 +1,26 @@
+[
+  {
+    "job_id": "job_a",
+    "title": "Data Analyst",
+    "skills": [],
+    "warnings": [
+      "Synthetic mock profile; not a real job posting."
+    ]
+  },
+  {
+    "job_id": "job_b",
+    "title": "Data Analyst",
+    "skills": [],
+    "warnings": [
+      "Synthetic mock profile; not a real job posting."
+    ]
+  },
+  {
+    "job_id": "job_c",
+    "title": "Data Analyst",
+    "skills": [],
+    "warnings": [
+      "Synthetic mock profile; not a real job posting."
+    ]
+  }
+]
